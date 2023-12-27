@@ -1,12 +1,9 @@
-<script setup lang="ts">
-import MyHello from './components/MyHello.vue'
+<script setup>
+import HomePage from './pages/Home.vue'
+import Drawer from './components/Drawer.vue'
 </script>
 
 <template>
-  <MyHello />
+  <!-- <Drawer /> -->
+  <HomePage />
 </template>
-
-<style scoped>
-body {
-}
-</style>
